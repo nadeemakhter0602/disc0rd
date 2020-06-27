@@ -19,4 +19,4 @@ async def on_message(message):
             await client.send_message(message.channel,"Translation : "+d.text)
  
 
-client.run(token,bot=False)
+client.run(token,bot=False)# you have to set bot=True if you are using a bot account
